@@ -1,4 +1,4 @@
-##EcoSense — AI Energy Optimizer
+# EcoSense — AI Energy Optimizer
 
 ## Problem Statement
 With rising energy costs and growing environmental concerns, households often struggle to understand their electricity consumption. Generic energy-saving tips are rarely effective because they do not account for a user's specific geographical location, local state tariffs, household size, or specific high-load appliances. There is a lack of accessible, personalized tools that can accurately break down phantom loads and translate kilowatt-hour (kWh) reductions into tangible financial savings or environmental impact.
