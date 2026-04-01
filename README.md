@@ -33,8 +33,7 @@ This entire project was conceptualized, designed, and programmed through the int
 ---
 
 ## Demo Video
-Upload your demo video to Google Drive and paste the shareable link here(max 3 minutes).
-[Watch Demo](#)
+https://drive.google.com/file/d/1zS7qYblN3167nenS5TCPcifPDBtDkEVi/view?usp=drive_link
 
 ---
 
