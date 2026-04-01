@@ -26,10 +26,9 @@ This entire project was conceptualized, designed, and programmed through the int
 ---
 
 ## Screenshots 
-Add project screenshots:
+<img width="1919" height="899" alt="Screenshot 2026-04-01 054644" src="https://github.com/user-attachments/assets/be67f9b3-27e6-44f0-be65-de00470920c0" />
+<img width="1893" height="906" alt="Screenshot 2026-04-01 054930" src="https://github.com/user-attachments/assets/964b902b-1076-4095-8541-7333786273b9" />
 
-![Screenshot1](./assets/screenshot1.png)  
-![Screenshot2](./assets/screenshot2.png)
 
 ---
 
