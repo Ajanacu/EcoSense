@@ -1,5 +1,6 @@
 import { useProfile } from '../hooks/useProfile';
 import { useCalculations } from '../hooks/useCalculations';
+import AiAdvisor from '../components/AiAdvisor';
 import { Bar, Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS, CategoryScale, LinearScale, BarElement, 
@@ -127,6 +128,8 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
+
+      <AiAdvisor profile={profile} calculations={calculations} />
     </div>
   );
 }
