@@ -37,17 +37,3 @@ https://drive.google.com/file/d/1zS7qYblN3167nenS5TCPcifPDBtDkEVi/view?usp=drive
 
 ---
 
-## Installation Steps
-
-```bash
-# Clone the repository
-git clone <your-repo-link>
-
-# Go to project folder
-cd project-name
-
-# Install dependencies
-npm install
-
-# Run the project
-npm start
