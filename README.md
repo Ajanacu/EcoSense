@@ -10,6 +10,12 @@ Key features include:
 *   **Carbon Tracker & Solar Estimator**: Translates raw energy data into actionable metrics, showing CO₂ offset equivalents (like trees planted or flights avoided) and calculating exact ROI for potential rooftop solar installations.
 *   **Interactive Bill Simulator & Gamification**: Allows users to interactively simulate the financial impact of changing their daily usage and rewards them with unlocking badges for hitting reduction milestones, wrapped in a premium modern Glassmorphism UI.
 ---
+
+## Live Demo
+
+https://eco-sense-nwnj.vercel.app/
+
+---
 ## Google AI Usage
 ### Tools / Models Used
 - **Google Gemini** (Web Interface / Chat)
@@ -33,7 +39,7 @@ This entire project was conceptualized, designed, and programmed through the int
 ---
 
 ## Demo Video
-[https://drive.google.com/file/d/1zS7qYblN3167nenS5TCPcifPDBtDkEVi/view?usp=drive_link](https://drive.google.com/file/d/1f1Ys83duqfi3dHCDboezAofPSc7n6XdM/view?usp=drive_link)
+https://drive.google.com/file/d/1f1Ys83duqfi3dHCDboezAofPSc7n6XdM/view?usp=drive_link
 
 ---
 
