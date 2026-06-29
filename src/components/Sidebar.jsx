@@ -1,5 +1,6 @@
-import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, Zap, Leaf, Sun, Calculator, Target, Users } from 'lucide-react';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { LayoutDashboard, Zap, Leaf, Sun, Calculator, Target, Users, RefreshCw } from 'lucide-react';
+import { useProfile } from '../hooks/useProfile';
 
 const navItems = [
   { path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
@@ -11,6 +12,9 @@ const navItems = [
 ];
 
 export default function Sidebar() {
+  const { clearProfile } = useProfile();
+  const navigate = useNavigate();
+
   return (
     <aside className="hidden md:flex flex-col w-64 h-screen bg-surface/60 backdrop-blur-2xl border-r border-white/10 sticky top-0 relative overflow-hidden">
       <div className="absolute top-0 -left-10 w-40 h-40 bg-accent/10 rounded-full mix-blend-multiply filter blur-2xl opacity-50 z-0"></div>
@@ -42,6 +46,21 @@ export default function Sidebar() {
           );
         })}
       </nav>
+
+      <div className="p-4 border-t border-white/10 mt-auto z-10 relative">
+        <button 
+          onClick={() => {
+            if (confirm("Reset all inputs and restart onboarding?")) {
+              clearProfile();
+              navigate('/onboarding');
+            }
+          }}
+          className="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-red-400 hover:text-red-300 hover:bg-red-500/10 w-full text-left font-medium text-sm"
+        >
+          <RefreshCw className="w-5 h-5" />
+          Reset Setup
+        </button>
+      </div>
     </aside>
   );
 }
