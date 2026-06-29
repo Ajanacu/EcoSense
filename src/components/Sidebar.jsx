@@ -52,7 +52,7 @@ export default function Sidebar() {
           onClick={() => {
             if (confirm("Reset all inputs and restart onboarding?")) {
               clearProfile();
-              navigate('/onboarding');
+              window.location.reload();
             }
           }}
           className="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-red-400 hover:text-red-300 hover:bg-red-500/10 w-full text-left font-medium text-sm"
